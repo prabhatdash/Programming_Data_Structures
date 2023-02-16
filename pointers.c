@@ -43,7 +43,7 @@ int main()
     int sz = sizeof(ptr);
     printf("size of ptr is %d byte", sz);
 
-    //Implementaion of Far Pointer:
+    //Implementaion of Huge Pointer:
     char huge * far *p;
     printf("%d %d %d",sizeof(p),sizeof(*p),sizeof(**p));
 
