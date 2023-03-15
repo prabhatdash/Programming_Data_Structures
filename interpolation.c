@@ -12,7 +12,7 @@ int main()
 	while(1){
 	    if (start <= stop && x >= arr[start] && x <= arr[stop]) {
 	 
-	    pos=start + ((double)(stop-start)/(arr[stop]-arr[start])) * (x-arr[start]);
+	     pos=start + ((x-arr[start])*((double)(stop-start))/(arr[stop]-arr[start]));
 	    if(arr[pos]==x){
 	        printf("The element is present in index: %d",pos);
 	        break;
