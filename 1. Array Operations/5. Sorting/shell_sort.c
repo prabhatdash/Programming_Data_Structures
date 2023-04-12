@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int arr[] = {9, 8, 3, 7, 5, 6, 4, 1};
+  int arr[] = {10,9,6,4,1,7,5};
   int size = sizeof(arr) / sizeof(arr[0]);
   
   for (int gap = size / 2; gap > 0; gap=gap/2) {
