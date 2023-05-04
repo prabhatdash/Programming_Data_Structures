@@ -29,7 +29,6 @@ int main()
             else
             {
                 printf("\n Deleted Element is %d",queue[front++]);
-                size++;
             }
             break;
         case 3:
@@ -43,6 +42,7 @@ int main()
                     printf("%d",queue[i]);
                     printf("\n");
                 }
+            }
                 break;
             case 4:
                 exit(0);
