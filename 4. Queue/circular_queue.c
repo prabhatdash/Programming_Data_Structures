@@ -29,6 +29,11 @@ int main()
             else
             {
                 printf("\n Deleted Element is %d",queue[front++]);
+                if(front==rear){
+                    front=0;
+                    rear=0;
+                    j=1;
+                }
             }
             break;
         case 3:
